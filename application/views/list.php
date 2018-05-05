@@ -1,3 +1,5 @@
+<a href="<?php echo base_url(); ?>index.php/crud/add"><button>Tambah Data</button></a>
+<br>
 <table border='1'>
 <tr style="background:#D0D0D0">
 <td>Nama</td><td>No HP</td><td>Email</td><td>Alamat</td>

@@ -14,5 +14,10 @@ class m_crud extends CI_Model {
     } else {
       return array();
     }
-	}
+  }
+  
+  public function insert($params=''){
+    $sql="INSERT INTO karyawan (nama_kar, no_hp, email, alamat) VALUES (?, ?, ?, ?)";
+    return $this->db->query($sql, $params);
+  }
 }
